@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Journal – Open Observer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal – Open Observer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  body {font-family:'Inter', sans-serif; background:#f5f5f5; color:#0E0E0E; margin:0;}
+  nav {display:flex; justify-content:space-between; align-items:center; background:white; padding:20px 40px; border-bottom:1px solid #e0e0e0;}
+  nav .logo {font-weight:600; font-size:24px;}
+  nav ul {list-style:none; display:flex; gap:20px; margin:0; padding:0;}
+  nav a {text-decoration:none; color:#0E0E0E;}
+  nav a.active {border-bottom:2px solid #00B8D9;}
+  .container {max-width:800px; margin:40px auto; padding:0 20px;}
+  .post-card {background:white; padding:20px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.05); margin-bottom:20px;}
+  .post-card h2 {margin-top:0;}
+  footer {text-align:center; padding:20px; font-size:0.875rem; color:#666;}
+</style>
 </head>
 <body>
-  <nav>
-    <div class="logo">Open Observer</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="journal.html">Journal</a></li>
-      <li><a href="tests.html">Tests</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <section class="hero">
-    <h1>Journal</h1>
-    <p>Explore essays on Stoicism, Taoism, psychology, and minimalism. Our journal will feature reflections on mind, discipline, society, and identity.</p>
-  </section>
-  <section class="features">
-    <div class="feature">
-      <h3>Coming Soon</h3>
-      <p>The Journal is under construction. Stay tuned for thoughtful articles and insights.</p>
-    </div>
-  </section>
-  <footer>
-    &copy; 2025 Open Observer. All rights reserved.
-  </footer>
+<nav>
+  <div class="logo">Open Observer</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="journal.html" class="active">Journal</a></li>
+    <li><a href="tests.html">Tests</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <h1>Journal</h1>
+  <p>Explore essays on Stoicism, Taoism, psychology, minimalism, and personality insights.</p>
+  <div class="post-card">
+    <h2>INFJ — The Insightful Visionary</h2>
+    <p>A deep dive into the INFJ personality type: key traits, famous examples, career paths, and childhood development.</p>
+    <a href="infj.html" style="color:#00B8D9; text-decoration:underline;">Read the full article</a>
+  </div>
+</div>
+<footer>&copy; 2025 Open Observer. All rights reserved.</footer>
 </body>
 </html>
